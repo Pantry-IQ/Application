@@ -1,0 +1,14 @@
+{
+  "name": "pantry-iq",
+  "version": "0.0.1",
+  "description": "Pantry IQ manages your meals, snacks, and ingredients for the whole house all in one app.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pantry-IQ/Application.git"
+  },
+  "packageManager": "pnpm@10.12.1",
+  "workspaces": [
+    "applications/*",
+    "packages/*"
+  ]
+}
